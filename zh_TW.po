@@ -3774,14 +3774,14 @@ msgstr "Minecraft伺服器"
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:74
 msgctxt "RefreshTask|"
 msgid "Authentication server didn't send a client token."
-msgstr ""
+msgstr "認證伺服器沒有發送用戶憑證"
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:79
 msgctxt "RefreshTask|"
 msgid ""
 "Authentication server attempted to change the client token. This isn't "
 "supported."
-msgstr ""
+msgstr "認證伺服器嘗試更換用戶憑證。目前這項要求未被支援。"
 
 #: src/api/logic/minecraft/auth/flows/RefreshTask.cpp:89
 msgctxt "RefreshTask|"
@@ -3954,7 +3954,7 @@ msgstr "下移"
 #: src/application/pages/instance/ServersPage.h:46
 msgctxt "ServersPage|"
 msgid "Servers"
-msgstr ""
+msgstr "伺服器"
 
 #: src/application/setupwizard/SetupWizard.cpp:29
 msgctxt "SetupWizard|"
@@ -4060,12 +4060,12 @@ msgstr "登入失敗!"
 #: src/application/dialogs/SkinUploadDialog.cpp:48
 msgctxt "SkinUploadDialog|"
 msgid "Using remote URLs for setting skins is not implemented yet."
-msgstr ""
+msgstr "使用遠端網址來設定皮膚尚未被支援。"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:60
 msgctxt "SkinUploadDialog|"
 msgid "You cannot use an invalid URL for uploading skins."
-msgstr ""
+msgstr "無法使用無效的網址來上傳皮膚。"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:75
 msgctxt "SkinUploadDialog|"
@@ -4085,7 +4085,7 @@ msgstr "成功"
 #: src/application/dialogs/SkinUploadDialog.cpp:101
 msgctxt "SkinUploadDialog|"
 msgid "Select Skin Texture"
-msgstr ""
+msgstr "選擇皮膚材質"
 
 #: src/api/logic/status/StatusChecker.cpp:104
 #, qt-format
@@ -4441,7 +4441,7 @@ msgstr "重新載入"
 #: src/application/pages/instance/VersionPage.ui:243
 msgctxt "VersionPage|"
 msgid "Download the files needed to launch the instance now."
-msgstr ""
+msgstr "現在下載所有實例需要的檔案。"
 
 #: src/application/pages/instance/VersionPage.ui:246
 msgctxt "VersionPage|"
@@ -4506,7 +4506,7 @@ msgid ""
 "MultiMC cannot download Minecraft or update instances unless you have at "
 "least one account added.\n"
 "Please add your Mojang or Minecraft account."
-msgstr ""
+msgstr "請新增你的Mojang或Minecraft帳號。"
 
 #: src/application/pages/instance/VersionPage.cpp:420
 msgctxt "VersionPage|"
@@ -4531,7 +4531,7 @@ msgstr "選擇Jar"
 #: src/application/pages/instance/VersionPage.cpp:258
 msgctxt "VersionPage|"
 msgid "Minecraft.jar replacement (*.jar)"
-msgstr ""
+msgstr "替換Minecraft.jar (*.jar)"
 
 #: src/application/pages/instance/VersionPage.cpp:318
 #, qt-format
